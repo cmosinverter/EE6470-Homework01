@@ -11,10 +11,12 @@ def add_noise(img, n):
 
 if __name__ == '__main__':
     # input original image file
-    img = cv2.imread('./img/lena_color_256.tif')
+    lena = 'lena_color_256'
+    mandrill = 'mandril_color'
+    img = cv2.imread(f'./img/{mandrill}.tif')
     # Write out original image in bmp format
-    cv2.imwrite('./lena_color_256.bmp', img)
+    cv2.imwrite(f'./{mandrill}.bmp', img)
 
     # Add white noise points and write out another bmp file
     noise_img = add_noise(img, 100)
-    cv2.imwrite('./lena_color_256_noise.bmp', noise_img)
+    cv2.imwrite(f'./{mandrill}_noise.bmp', noise_img)

@@ -34,7 +34,7 @@ target_link_libraries(sobel SystemC::systemc)
 # Add test sobel filter command
 set(OUT_FILE "out.bmp")
 add_custom_command(OUTPUT ${OUT_FILE}
-	COMMAND ./sobel ../lena_color_256_noise.bmp ./${OUT_FILE}
+	COMMAND ./sobel ../mandril_color_noise.bmp ./${OUT_FILE}
 	DEPENDS sobel
 	WORKING_DIRECTORY ${CMAKE_BINARY_DIR}	
 )

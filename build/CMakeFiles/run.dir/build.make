@@ -70,7 +70,7 @@ CMakeFiles/run: out.bmp
 
 out.bmp: sobel
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating out.bmp"
-	./sobel ../lena_color_256_noise.bmp ./out.bmp
+	./sobel ../mandril_color_noise.bmp ./out.bmp
 
 run: CMakeFiles/run
 run: out.bmp
