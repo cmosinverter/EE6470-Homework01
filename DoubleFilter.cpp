@@ -1,8 +1,8 @@
 #include <cmath>
 #include <vector>
-#include "SobelFilter.h"
+#include "DoubleFilter.h"
 
-SobelFilter::SobelFilter(sc_module_name n) : sc_module(n) {
+DoubleFilter::DoubleFilter(sc_module_name n) : sc_module(n) {
   SC_THREAD(do_filter);
   sensitive << i_clk.pos();
   dont_initialize();
@@ -12,7 +12,7 @@ SobelFilter::SobelFilter(sc_module_name n) : sc_module(n) {
 
 
 
-void SobelFilter::do_filter() {
+void DoubleFilter::do_filter() {
   while (true) {
 
     // Median filter
