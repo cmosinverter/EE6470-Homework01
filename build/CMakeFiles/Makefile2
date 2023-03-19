@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ee6470/lab02/sobel_fifo
+CMAKE_SOURCE_DIR = /home/user/ee6470/hw1/Q1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ee6470/lab02/sobel_fifo/build
+CMAKE_BINARY_DIR = /home/user/ee6470/hw1/Q1/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/check.dir/clean
 CMakeFiles/filter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles --progress-num=1,2,3,4 "Built target filter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/ee6470/hw1/Q1/build/CMakeFiles --progress-num=1,2,3,4 "Built target filter"
 .PHONY : CMakeFiles/filter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/filter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/hw1/Q1/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/filter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/hw1/Q1/build/CMakeFiles 0
 .PHONY : CMakeFiles/filter.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/filter.dir/clean:
 CMakeFiles/run.dir/all: CMakeFiles/filter.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles --progress-num=5 "Built target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/ee6470/hw1/Q1/build/CMakeFiles --progress-num=5 "Built target run"
 .PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/hw1/Q1/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/hw1/Q1/build/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule
 
 # Convenience name for target.
@@ -135,14 +135,14 @@ CMakeFiles/run.dir/clean:
 CMakeFiles/check.dir/all: CMakeFiles/run.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles --progress-num= "Built target check"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/ee6470/hw1/Q1/build/CMakeFiles --progress-num= "Built target check"
 .PHONY : CMakeFiles/check.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/hw1/Q1/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/check.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ee6470/hw1/Q1/build/CMakeFiles 0
 .PHONY : CMakeFiles/check.dir/rule
 
 # Convenience name for target.

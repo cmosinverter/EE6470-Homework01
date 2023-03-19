@@ -1,5 +1,5 @@
-/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles/filter.dir
-/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles/run.dir
-/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles/check.dir
-/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles/edit_cache.dir
-/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles/rebuild_cache.dir
+/home/user/ee6470/hw1/Q1/build/CMakeFiles/filter.dir
+/home/user/ee6470/hw1/Q1/build/CMakeFiles/run.dir
+/home/user/ee6470/hw1/Q1/build/CMakeFiles/check.dir
+/home/user/ee6470/hw1/Q1/build/CMakeFiles/edit_cache.dir
+/home/user/ee6470/hw1/Q1/build/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,5 @@
-CMakeFiles/filter.dir/main.cpp.o: \
- /home/user/ee6470/lab02/sobel_fifo/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/iostream \
+CMakeFiles/filter.dir/main.cpp.o: /home/user/ee6470/hw1/Q1/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -150,8 +149,7 @@ CMakeFiles/filter.dir/main.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/user/ee6470/lab02/sobel_fifo/DoubleFilter.h \
- /opt/systemc/include/systemc \
+ /home/user/ee6470/hw1/Q1/DoubleFilter.h /opt/systemc/include/systemc \
  /opt/systemc/include/sysc/kernel/sc_cmnhdr.h /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_uninitialized.h \
@@ -291,5 +289,5 @@ CMakeFiles/filter.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/user/ee6470/lab02/sobel_fifo/filter_def.h \
- /home/user/ee6470/lab02/sobel_fifo/Testbench.h
+ /home/user/ee6470/hw1/Q1/filter_def.h \
+ /home/user/ee6470/hw1/Q1/Testbench.h

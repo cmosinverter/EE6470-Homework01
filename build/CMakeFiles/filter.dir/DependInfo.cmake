@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/user/ee6470/lab02/sobel_fifo/DoubleFilter.cpp" "CMakeFiles/filter.dir/DoubleFilter.cpp.o" "gcc" "CMakeFiles/filter.dir/DoubleFilter.cpp.o.d"
-  "/home/user/ee6470/lab02/sobel_fifo/Testbench.cpp" "CMakeFiles/filter.dir/Testbench.cpp.o" "gcc" "CMakeFiles/filter.dir/Testbench.cpp.o.d"
-  "/home/user/ee6470/lab02/sobel_fifo/main.cpp" "CMakeFiles/filter.dir/main.cpp.o" "gcc" "CMakeFiles/filter.dir/main.cpp.o.d"
+  "/home/user/ee6470/hw1/Q1/DoubleFilter.cpp" "CMakeFiles/filter.dir/DoubleFilter.cpp.o" "gcc" "CMakeFiles/filter.dir/DoubleFilter.cpp.o.d"
+  "/home/user/ee6470/hw1/Q1/Testbench.cpp" "CMakeFiles/filter.dir/Testbench.cpp.o" "gcc" "CMakeFiles/filter.dir/Testbench.cpp.o.d"
+  "/home/user/ee6470/hw1/Q1/main.cpp" "CMakeFiles/filter.dir/main.cpp.o" "gcc" "CMakeFiles/filter.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

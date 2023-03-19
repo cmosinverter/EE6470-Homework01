@@ -1,6 +1,6 @@
 CMakeFiles/filter.dir/DoubleFilter.cpp.o: \
- /home/user/ee6470/lab02/sobel_fifo/DoubleFilter.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/cmath \
+ /home/user/ee6470/hw1/Q1/DoubleFilter.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -89,8 +89,7 @@ CMakeFiles/filter.dir/DoubleFilter.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/user/ee6470/lab02/sobel_fifo/DoubleFilter.h \
- /opt/systemc/include/systemc \
+ /home/user/ee6470/hw1/Q1/DoubleFilter.h /opt/systemc/include/systemc \
  /opt/systemc/include/sysc/kernel/sc_cmnhdr.h /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/cstdio /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
@@ -290,4 +289,4 @@ CMakeFiles/filter.dir/DoubleFilter.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/user/ee6470/lab02/sobel_fifo/filter_def.h
+ /home/user/ee6470/hw1/Q1/filter_def.h

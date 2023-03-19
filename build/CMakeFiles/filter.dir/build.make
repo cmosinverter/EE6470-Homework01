@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ee6470/lab02/sobel_fifo
+CMAKE_SOURCE_DIR = /home/user/ee6470/hw1/Q1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ee6470/lab02/sobel_fifo/build
+CMAKE_BINARY_DIR = /home/user/ee6470/hw1/Q1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/filter.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/filter.dir/flags.make
 CMakeFiles/filter.dir/DoubleFilter.cpp.o: CMakeFiles/filter.dir/flags.make
 CMakeFiles/filter.dir/DoubleFilter.cpp.o: ../DoubleFilter.cpp
 CMakeFiles/filter.dir/DoubleFilter.cpp.o: CMakeFiles/filter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filter.dir/DoubleFilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/filter.dir/DoubleFilter.cpp.o -MF CMakeFiles/filter.dir/DoubleFilter.cpp.o.d -o CMakeFiles/filter.dir/DoubleFilter.cpp.o -c /home/user/ee6470/lab02/sobel_fifo/DoubleFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ee6470/hw1/Q1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filter.dir/DoubleFilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/filter.dir/DoubleFilter.cpp.o -MF CMakeFiles/filter.dir/DoubleFilter.cpp.o.d -o CMakeFiles/filter.dir/DoubleFilter.cpp.o -c /home/user/ee6470/hw1/Q1/DoubleFilter.cpp
 
 CMakeFiles/filter.dir/DoubleFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filter.dir/DoubleFilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ee6470/lab02/sobel_fifo/DoubleFilter.cpp > CMakeFiles/filter.dir/DoubleFilter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ee6470/hw1/Q1/DoubleFilter.cpp > CMakeFiles/filter.dir/DoubleFilter.cpp.i
 
 CMakeFiles/filter.dir/DoubleFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filter.dir/DoubleFilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ee6470/lab02/sobel_fifo/DoubleFilter.cpp -o CMakeFiles/filter.dir/DoubleFilter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ee6470/hw1/Q1/DoubleFilter.cpp -o CMakeFiles/filter.dir/DoubleFilter.cpp.s
 
 CMakeFiles/filter.dir/Testbench.cpp.o: CMakeFiles/filter.dir/flags.make
 CMakeFiles/filter.dir/Testbench.cpp.o: ../Testbench.cpp
 CMakeFiles/filter.dir/Testbench.cpp.o: CMakeFiles/filter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/filter.dir/Testbench.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/filter.dir/Testbench.cpp.o -MF CMakeFiles/filter.dir/Testbench.cpp.o.d -o CMakeFiles/filter.dir/Testbench.cpp.o -c /home/user/ee6470/lab02/sobel_fifo/Testbench.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ee6470/hw1/Q1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/filter.dir/Testbench.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/filter.dir/Testbench.cpp.o -MF CMakeFiles/filter.dir/Testbench.cpp.o.d -o CMakeFiles/filter.dir/Testbench.cpp.o -c /home/user/ee6470/hw1/Q1/Testbench.cpp
 
 CMakeFiles/filter.dir/Testbench.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filter.dir/Testbench.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ee6470/lab02/sobel_fifo/Testbench.cpp > CMakeFiles/filter.dir/Testbench.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ee6470/hw1/Q1/Testbench.cpp > CMakeFiles/filter.dir/Testbench.cpp.i
 
 CMakeFiles/filter.dir/Testbench.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filter.dir/Testbench.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ee6470/lab02/sobel_fifo/Testbench.cpp -o CMakeFiles/filter.dir/Testbench.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ee6470/hw1/Q1/Testbench.cpp -o CMakeFiles/filter.dir/Testbench.cpp.s
 
 CMakeFiles/filter.dir/main.cpp.o: CMakeFiles/filter.dir/flags.make
 CMakeFiles/filter.dir/main.cpp.o: ../main.cpp
 CMakeFiles/filter.dir/main.cpp.o: CMakeFiles/filter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/filter.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/filter.dir/main.cpp.o -MF CMakeFiles/filter.dir/main.cpp.o.d -o CMakeFiles/filter.dir/main.cpp.o -c /home/user/ee6470/lab02/sobel_fifo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ee6470/hw1/Q1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/filter.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/filter.dir/main.cpp.o -MF CMakeFiles/filter.dir/main.cpp.o.d -o CMakeFiles/filter.dir/main.cpp.o -c /home/user/ee6470/hw1/Q1/main.cpp
 
 CMakeFiles/filter.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filter.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ee6470/lab02/sobel_fifo/main.cpp > CMakeFiles/filter.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ee6470/hw1/Q1/main.cpp > CMakeFiles/filter.dir/main.cpp.i
 
 CMakeFiles/filter.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filter.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ee6470/lab02/sobel_fifo/main.cpp -o CMakeFiles/filter.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ee6470/hw1/Q1/main.cpp -o CMakeFiles/filter.dir/main.cpp.s
 
 # Object files for target filter
 filter_OBJECTS = \
@@ -126,7 +126,7 @@ filter: CMakeFiles/filter.dir/main.cpp.o
 filter: CMakeFiles/filter.dir/build.make
 filter: /opt/systemc/lib/libsystemc.so.2.3.3
 filter: CMakeFiles/filter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable filter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ee6470/hw1/Q1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable filter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/filter.dir/clean:
 .PHONY : CMakeFiles/filter.dir/clean
 
 CMakeFiles/filter.dir/depend:
-	cd /home/user/ee6470/lab02/sobel_fifo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ee6470/lab02/sobel_fifo /home/user/ee6470/lab02/sobel_fifo /home/user/ee6470/lab02/sobel_fifo/build /home/user/ee6470/lab02/sobel_fifo/build /home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles/filter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/ee6470/hw1/Q1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ee6470/hw1/Q1 /home/user/ee6470/hw1/Q1 /home/user/ee6470/hw1/Q1/build /home/user/ee6470/hw1/Q1/build /home/user/ee6470/hw1/Q1/build/CMakeFiles/filter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/filter.dir/depend
 

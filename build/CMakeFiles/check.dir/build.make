@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ee6470/lab02/sobel_fifo
+CMAKE_SOURCE_DIR = /home/user/ee6470/hw1/Q1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ee6470/lab02/sobel_fifo/build
+CMAKE_BINARY_DIR = /home/user/ee6470/hw1/Q1/build
 
 # Utility rule file for check.
 
@@ -67,7 +67,7 @@ include CMakeFiles/check.dir/compiler_depend.make
 include CMakeFiles/check.dir/progress.make
 
 CMakeFiles/check:
-	cd /home/user/ee6470/lab02/sobel_fifo && diff -s /home/user/ee6470/lab02/sobel_fifo/build/out.bmp golden/lena_std_short_sobel.bmp
+	cd /home/user/ee6470/hw1/Q1 && diff -s /home/user/ee6470/hw1/Q1/build/out.bmp golden/lena_std_short_sobel.bmp
 
 check: CMakeFiles/check
 check: CMakeFiles/check.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/check.dir/clean:
 .PHONY : CMakeFiles/check.dir/clean
 
 CMakeFiles/check.dir/depend:
-	cd /home/user/ee6470/lab02/sobel_fifo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ee6470/lab02/sobel_fifo /home/user/ee6470/lab02/sobel_fifo /home/user/ee6470/lab02/sobel_fifo/build /home/user/ee6470/lab02/sobel_fifo/build /home/user/ee6470/lab02/sobel_fifo/build/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/ee6470/hw1/Q1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ee6470/hw1/Q1 /home/user/ee6470/hw1/Q1 /home/user/ee6470/hw1/Q1/build /home/user/ee6470/hw1/Q1/build /home/user/ee6470/hw1/Q1/build/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check.dir/depend
 
