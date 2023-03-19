@@ -62,6 +62,6 @@ void DoubleFilter::do_filter() {
     blues.clear();
 
 
-    wait(10); //emulate module delay
+    wait(); //emulate module delay
   }
 }
