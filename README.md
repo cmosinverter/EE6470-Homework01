@@ -3,7 +3,7 @@
 This is the project that implements ee6470 homework 1, (40 pt) Median and mean filters with FIFO channels
 
 ## Usage
-1. Clone the file
+1. Clone the file (Git Bash)
 ```properties
 git clone https://github.com/cmosinverter/ee6470_hw1.git
 ```
@@ -19,7 +19,7 @@ docker run -h ubuntu --rm --cap-add SYS_ADMIN -it -v "C:\\Users\\<Your Username>
 ```properties
 cd ~/ee6470/ee6470_hw1/build
 ```
-4. Run the program using Cmake
+5. Run the program using Cmake
 ```properties
 make run
 ```
