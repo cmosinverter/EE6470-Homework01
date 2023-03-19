@@ -1,3 +1,3 @@
-# sobel_fifo
+## Median and Mean filter
 
-Sobel filter module with FIFO interfaces.
+This is the project that implements ee6470 homework 1, (40 pt) Median and mean filters with FIFO channels
