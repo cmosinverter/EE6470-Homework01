@@ -7,9 +7,12 @@ This is the project that implements ee6470 homework 1, (40 pt) Median and mean f
 ```properties
 git clone https://github.com/cmosinverter/ee6470_hw1.git
 ```
-2. Move into the build directory
+2. For Window Powershell
 ```properties
-cd ee6470_hw1/build
+winpty docker run -h ubuntu --rm --cap-add SYS_ADMIN -it -e LOCAL_USER_ID=$(id -u $USER) -v $HOME:/home/user ee6470/ubuntu-ee6470:latest
+/usr/local/bin/entrypoint.sh
+cd ~/ee6470/ee6470_hw1/build
+source bashrc
 ```
 3. Run the program
 ```properties
